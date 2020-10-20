@@ -4,6 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+//plusieurs personnes peuvent ecrire un commentaire et chaque commentaire appartient à un seul utilisateur 
+
 class Comment extends Model
 {
     protected $guarded =[];

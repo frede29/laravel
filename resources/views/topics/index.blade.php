@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-
+         
         <div class="list-group">
             @foreach($topics as $topic)
                 <div class="list-group-item">

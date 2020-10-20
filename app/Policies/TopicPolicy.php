@@ -6,6 +6,8 @@ use App\Topic;
 use App\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
+//Permet uniquement à l'editeur du topic de le modifier ou supprimer
+
 class TopicPolicy
 {
     use HandlesAuthorization;

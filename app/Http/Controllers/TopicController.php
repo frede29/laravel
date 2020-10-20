@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class TopicController extends Controller
 {
+    //CRUD des topics
     public function __construct()
     {
         $this->middleware('auth')->except('index','show');

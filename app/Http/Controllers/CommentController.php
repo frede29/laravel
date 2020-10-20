@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 
 class CommentController extends Controller
 {
+  //gerer l'affichage des commentaires avec condition requise pour cet affichage
    public function __construct()
    {
        $this->middleware('auth');

@@ -4,6 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+//monter qu'un topic appartient à une seul utilisateur
+
 class Topic extends Model
 {
 protected $guarded=[];

@@ -21,6 +21,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
+    <!--barre de navigation-->
 <div id="app">
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
@@ -41,14 +42,14 @@
                             Carrières
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="offre.php">Déposer offre </a>
+                            <a class="dropdown-item" href="">Déposer offre </a>
                             <a class="dropdown-item" href="#">Consulter offre</a>
                             <a class="dropdown-item" href="https://www.cci.univ-tours.fr/temoignages">Témoignages</a>
 
                         </div>
                     </li>
 
-                    <a class="nav-item nav-link" href="#">Statistique</a>
+                    <a class="nav-item nav-link" href="http://localhost:8040/laravel-master/stats/index.php">Statistique</a>
                 </div>
             </div>
 
@@ -82,6 +83,7 @@
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
                             </form>
+                            
                         </div>
                     </li>
                 @endguest
